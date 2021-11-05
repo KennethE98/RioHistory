@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101959021956",
+    "project_id": "riohistory-82e38",
+    "storage_bucket": "riohistory-82e38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101959021956:android:f31589469f123d2a3b19d1",
+        "android_client_info": {
+          "package_name": "com.riohistory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101959021956-22nbavdkegbasnk0bnkv2u9hn8smv5u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riohistory",
+            "certificate_hash": "27bbe18da98b8e307fb86a137e2ae9d77fb86472"
+          }
+        },
+        {
+          "client_id": "101959021956-6cdnu508inqkgi5jp6sim3ihk48gbkmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7mWlZFNIXXHPMFEGXEM7VFmsqBBj_zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101959021956-6cdnu508inqkgi5jp6sim3ihk48gbkmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
