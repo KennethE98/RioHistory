@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="630dp">
+
+</LinearLayout>
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="407dp"
-        android:layout_height="555dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="142dp"
-        android:layout_height="59dp"
-        android:background="#03A9F4"
-        android:backgroundTint="#2196F3"
-        android:text="Registrar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.483" />
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:backgroundTint="#043359"
+            android:text="Registrar"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.495"
+            tools:ignore="TextContrastCheck" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="142dp"
-        android:layout_height="59dp"
-        android:background="#751D1D"
-        android:backgroundTint="#B13838"
-        android:text="Continuar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.483" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:background="#751D1D"
+            android:backgroundTint="#B13838"
+            android:text="Continuar"
+            android:textColor="#F6F4F4"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.481"
+            android:enabled="false"/>
+    </LinearLayout>
+
+</LinearLayout>
