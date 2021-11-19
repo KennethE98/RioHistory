@@ -23,6 +23,7 @@
             android:layout_width="225dp"
             android:layout_height="67dp"
             android:background="#E6E6E6"
+            android:textColor="#000000"
             android:textSize="31sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +32,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.456"
-            tools:text="Facebook">
+            android:text="Facebook">
 
         </Button>
 
@@ -48,7 +49,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.157"
-            tools:text="Google">
+            android:text="Google">
 
         </Button>
 
