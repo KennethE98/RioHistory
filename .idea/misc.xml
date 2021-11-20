@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RioHistory/app/src/main/res/layout/activity_correo.xml" value="0.4144222415291051" />
+        <entry key="..\:/RioHistory/app/src/main/res/layout/activity_main.xml" value="0.2484375" />
+        <entry key="..\:/RioHistory/app/src/main/res/layout/activity_opcion_registro.xml" value="0.2484375" />
         <entry key="app/src/main/res/layout/activity_correo.xml" value="0.13680555555555557" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_opcion_registro.xml" value="0.25" />
