@@ -13,7 +13,7 @@
 
 
         <Button
-            android:id="@+id/btnRegistrarse2"
+            android:id="@+id/btnRegistrar"
             android:layout_width="310dp"
             android:layout_height="65dp"
             android:background="@color/white"
