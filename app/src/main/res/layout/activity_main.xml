@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.687"
-            tools:ignore="TextContrastCheck" />
+             />
 
         <Button
             android:id="@+id/btnContinuar"
@@ -41,7 +41,6 @@
             android:layout_height="65dp"
             android:background="#751D1D"
             android:backgroundTint="#B13838"
-            android:enabled="false"
             android:text="Continuar"
             android:textColor="#F6F4F4"
             android:textSize="20sp"
