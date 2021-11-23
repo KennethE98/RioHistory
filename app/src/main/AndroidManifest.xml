@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RioHistory">
         <activity
+            android:name=".Sign_In"
+            android:exported="false" />
+        <activity
             android:name=".correo"
             android:exported="false" />
         <activity

@@ -9,13 +9,22 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button opciones;
-
+    Button continuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         opciones=(Button)findViewById(R.id.btnRegistrarse);
+        continuar=(Button)findViewById(R.id.btnContinuar);
+
+        continuar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent j = new Intent(MainActivity.this,Sign_In.class);
+                startActivity(j);
+            }
+        });
         opciones.setOnClickListener(new View.OnClickListener() {
 
             @Override
